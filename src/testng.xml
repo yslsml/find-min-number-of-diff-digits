@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite One" verbose="1" >
+    <test name="tests" >
+        <groups>
+            <run>
+                <!--<include name="GQuadrate"/>-->
+            </run>
+        </groups>
+        <classes>
+            <class name="test.operation.OpeartionsIntArrayTest" />
+            <class name="test.filter.StringFilterTest" />
+            <class name="test.creator.ArrayCreatorTest" />
+        </classes>
+    </test>
+</suite>
